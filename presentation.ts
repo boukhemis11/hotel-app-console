@@ -13,9 +13,9 @@ import{Service} from './service';
               for (let c of listeClients) {
                 console.log(c.nom +" " +c.prenoms); // 1, "string", false
             }
-            
+            start();
           });
-          start();
+
   
     }else if (saisie =='2'){
         rl.question("Veuillez entrer un nom : ",function (nom){
